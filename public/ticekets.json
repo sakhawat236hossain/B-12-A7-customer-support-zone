@@ -1,0 +1,128 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "status": "Open",
+    "priority": "High",
+    "customer": "John Smith",
+    "date": "1/15/2024",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still..."
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "status": "Open",
+    "priority": "High",
+    "customer": "Sarah Johnson",
+    "date": "1/16/2024",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance."
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "status": "In-Progress",
+    "priority": "Medium",
+    "customer": "Michael Brown",
+    "date": "1/17/2024",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is..."
+  },
+  {
+    "id": "#1004",
+    "title": "Incorrect Billing Address",
+    "status": "Open",
+    "priority": "Low",
+    "customer": "Emily Davis",
+    "date": "1/18/2024",
+    "description": "Customer’s billing address shows a different city. They updated it but it still displays the old one."
+  },
+  {
+    "id": "#1005",
+    "title": "App Crash on Launch",
+    "status": "Open",
+    "priority": "High",
+    "customer": "David Wilson",
+    "date": "1/19/2024",
+    "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13."
+  },
+  {
+    "id": "#1006",
+    "title": "Refund Not Processed",
+    "status": "In-Progress",
+    "priority": "Medium",
+    "customer": "Sophia Taylor",
+    "date": "1/20/2024",
+    "description": "Customer requested a refund two weeks ago but has not received the amount yet."
+  },
+  {
+    "id": "#1007",
+    "title": "Two-Factor Authentication Issue",
+    "status": "Open",
+    "priority": "High",
+    "customer": "James Anderson",
+    "date": "1/21/2024",
+    "description": "Customer is not receiving 2FA codes on their registered phone number."
+  },
+  {
+    "id": "#1008",
+    "title": "Unable to Update Profile Picture",
+    "status": "Open",
+    "priority": "Low",
+    "customer": "Olivia Martinez",
+    "date": "1/22/2024",
+    "description": "Customer tries to upload a new profile picture but gets 'Upload failed' error."
+  },
+  {
+    "id": "#1009",
+    "title": "Subscription Auto-Renewal",
+    "status": "In-Progress",
+    "priority": "Medium",
+    "customer": "Ethan Clark",
+    "date": "1/23/2024",
+    "description": "Customer wants to enable auto-renewal for their subscription but the toggle is disabled."
+  },
+  {
+    "id": "#1010",
+    "title": "Missing Order Confirmation Email",
+    "status": "Open",
+    "priority": "High",
+    "customer": "Ava Thompson",
+    "date": "1/24/2024",
+    "description": "Customer placed an order but didn’t receive a confirmation email even though payment succeeded."
+  },
+  {
+    "id": "#1011",
+    "title": "Discount Code Not Working",
+    "status": "Open",
+    "priority": "Medium",
+    "customer": "Daniel Moore",
+    "date": "1/25/2024",
+    "description": "Customer entered a valid discount code but the system rejected it at checkout."
+  },
+  {
+    "id": "#1012",
+    "title": "Account Locked After Multiple Attempts",
+    "status": "Open",
+    "priority": "High",
+    "customer": "Sophia Brown",
+    "date": "1/26/2024",
+    "description": "Customer’s account was locked after multiple failed login attempts and they cannot unlock it."
+  },
+  {
+    "id": "#1013",
+    "title": "Delayed Shipping Update",
+    "status": "In-Progress",
+    "priority": "Low",
+    "customer": "Henry Adams",
+    "date": "1/27/2024",
+    "description": "Customer did not receive any tracking updates for their shipped order."
+  },
+  {
+    "id": "#1014",
+    "title": "Unable to Change Subscription Plan",
+    "status": "Open",
+    "priority": "Medium",
+    "customer": "Isabella Green",
+    "date": "1/28/2024",
+    "description": "Customer wants to switch from monthly to yearly subscription but the option is greyed out."
+  }
+]
