@@ -2,9 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="shadow-sm ">
-      <div className="navbar bg-base-100  max-w-[1200px] mx-auto">
+    <div className="shadow-sm sticky top-0 z-50 bg-base-100">
+      <div className="navbar bg-base-100 max-w-[1200px] mx-auto">
+        {/* ===== Left Side ===== */}
         <div className="navbar-start">
+          {/* Mobile Dropdown */}
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,29 +28,20 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow hover:cursor-pointer"
             >
-              <div className="flex">
+              <div className="flex flex-col gap-2">
+                {["Home", "FAQ", "Changelog", "Blog", "Download", "Contact"].map((item) => (
+                  <li key={item}>
+                    <a
+                      className="relative px-3 py-2 text-gray-700 hover:text-[#632EE3]
+                        after:content-[''] after:absolute after:left-0 after:bottom-0 
+                        after:h-[2px] after:w-0 after:bg-[#632EE3] after:transition-all hover:after:w-full"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                ))}
                 <div>
-                  <li>
-                    <a>Home</a>
-                  </li>
-                  <li>
-                    <a>FAQ</a>
-                  </li>
-                  <li>
-                    <a>Changelog</a>
-                  </li>
-                  <li>
-                    <a>Blog</a>
-                  </li>
-                  <li>
-                    <a>Download</a>
-                  </li>
-                  <li>
-                    <a>Contact</a>
-                  </li>
-                </div>
-                <div>
-                  <button className="px-6 py-2 md:py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+                  <button className="w-full px-6 py-2 md:py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
                     + New Ticket
                   </button>
                 </div>
@@ -56,20 +49,27 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <a className=" md:btn btn-ghost text-xl">CS — Ticket System</a>
+          {/* Logo */}
+          <a className="md:btn btn-ghost text-xl">CS — Ticket System</a>
         </div>
-        <div className="hidden lg:flex items-center gap-4 hover:cursor-pointer navbar-end">
-          <a href="">Home</a>
-          <a href="">FAQ</a>
-          <a href="">Changelog</a>
-          <a href="">Blog</a>
-          <a href="">Download</a>
-          <a href="">Contact</a>
-          <div>
-            <button className="px-6 py-2 md:py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-              + New Ticket
-            </button>
-          </div>
+
+        {/* ===== Right Side (Desktop Menu) ===== */}
+        <div className="hidden lg:flex items-center gap-4 navbar-end">
+          {["Home", "FAQ", "Changelog", "Blog", "Download", "Contact"].map((item) => (
+            <a
+              key={item}
+              href="#"
+              className="relative px-3 py-2 text-gray-700 hover:text-[#632EE3]
+                after:content-[''] after:absolute after:left-0 after:bottom-0 
+                after:h-[2px] after:w-0 after:bg-[#632EE3] after:transition-all hover:after:w-full"
+            >
+              {item}
+            </a>
+          ))}
+
+          <button className="px-6 py-2 md:py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+            + New Ticket
+          </button>
         </div>
       </div>
     </div>
