@@ -67,9 +67,10 @@ const Navbar = () => {
             </a>
           ))}
 
-          <button className="px-6 py-2 md:py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-            + New Ticket
-          </button>
+    <button className="btn rounded-lg text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+  + New Ticket
+</button>
+
         </div>
       </div>
     </div>
